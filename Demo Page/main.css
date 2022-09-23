@@ -1,0 +1,48 @@
+/* Tạo biến toàn cục trong CSS */
+:root {
+  --color1: rgb(108, 32, 129);
+  --color2: rgb(214, 108, 28);
+  --color3: rgb(192, 30, 143);
+}
+
+/* CSS bằng tag */
+h1 {
+  color: rgb(216, 4, 89);
+  font-size: 30px;
+}
+
+/* CSS bằng id */
+#col1 {
+  color: var(--color1);
+  font-size: 17px;
+}
+
+/* CSS bằng class */
+.Number {
+  color: var(--color1);
+  font-size: 17px;
+}
+
+.Name {
+  color: var(--color2);
+  font-size: 17px;
+}
+
+.Location {
+  color: var(--color3);
+  font-size: 17px;
+}
+
+/* CSS bằng cả id và class */
+#col2.Name {
+  color: rgb(214, 108, 28);
+  font-size: 17px;
+}
+
+body {
+  background: #92f574;
+}
+
+#heading-2 {
+  color: bisque;
+}
